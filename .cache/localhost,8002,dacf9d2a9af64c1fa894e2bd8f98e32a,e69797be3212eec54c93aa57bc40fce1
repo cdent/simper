@@ -1,0 +1,9 @@
+status: 304
+content-length: 0
+content-location: http://localhost:8002/dacf9d2a9af64c1fa894e2bd8f98e32a
+server: WSGIServer/0.1 Python/2.5.1
+etag: dacf9d2a9af64c1fa894e2bd8f98e32a
+cache-control: max-age=10
+date: Fri, 15 Feb 2008 20:37:29 GMT
+
+i mean really, this stuff, i don't know

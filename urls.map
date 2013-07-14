@@ -1,0 +1,38 @@
+
+# list of all content
+/content[/]
+    GET publisher:list
+    POST editor:add
+
+# individual named piece of content
+# "segment" is needed to allow \. in the name
+/content/name/{name:segment}[/]
+    GET publisher:content
+    PUT editor:update
+
+# add a type to a named thing
+/content/name/{name:segment}/{type}[/]
+    GET publisher:type_list_for_name
+    POST editor:type_add
+
+# revisions for a named piece of content
+/content/name/{name:segment}/revisions[/]
+    GET publisher:list_revisions
+
+# particular revision of a named piece of content
+/content/name/{name:segment}/revisions/{id}[/]
+    GET publisher:content_revision
+
+# list of content by type (blog, comment, etc)
+/content/{type}[/]
+    GET publisher:type_list
+
+# these below aren't done
+/content/{year}/{month}/{date}[/]
+    GET publisher:date
+
+/content/{year}/{month}[/]
+    GET publisher:date
+
+/content/{year}[/]
+    GET publisher:date

@@ -1,0 +1,8 @@
+status: 304
+content-length: 0
+content-location: http://localhost:8002/3e8649ee33e74df4aa11c3e0258eb8ed
+server: WSGIServer/0.1 Python/2.5.1
+etag: 3e8649ee33e74df4aa11c3e0258eb8ed
+cache-control: max-age=10
+date: Fri, 15 Feb 2008 22:27:55 GMT
+

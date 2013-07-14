@@ -1,0 +1,8 @@
+status: 200
+content-location: http://localhost:8002/7a43696aaab343eaa17297a78d96112f
+server: WSGIServer/0.1 Python/2.5.1
+etag: 7a43696aaab343eaa17297a78d96112f
+cache-control: max-age=10
+date: Thu, 17 Jan 2008 16:40:03 GMT
+
+you'd be [[better off]] than you are

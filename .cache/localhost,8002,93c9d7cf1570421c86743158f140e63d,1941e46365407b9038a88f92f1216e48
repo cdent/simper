@@ -1,0 +1,10 @@
+status: 304
+content-length: 0
+content-location: http://localhost:8002/93c9d7cf1570421c86743158f140e63d
+server: WSGIServer/0.1 Python/2.5.1
+etag: 93c9d7cf1570421c86743158f140e63d
+cache-control: max-age=10
+date: Mon, 11 Feb 2008 23:41:27 GMT
+
+
+{{http://farm3.static.flickr.com/2178/2233299224_baf80c991c_m.jpg}}

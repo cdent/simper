@@ -1,0 +1,9 @@
+status: 304
+content-length: 0
+content-location: http://localhost:8002/558a05770bbc48bc8f0378cb9a22d69a
+server: WSGIServer/0.1 Python/2.5.1
+etag: 558a05770bbc48bc8f0378cb9a22d69a
+cache-control: max-age=10
+date: Thu, 17 Jan 2008 17:04:12 GMT
+
+carry **moonbeams** home in a jar

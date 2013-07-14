@@ -1,0 +1,62 @@
+
+Simper - A blog content engine thing done simply so you can
+         simper on the internet too!
+
+== Needs
+
+=== From python
+
+* selector
+* kid
+* sqlalchemy 
+* clearfilter (for clear template separation)
+* closet (found near the simper svn)
+
+=== Otherwise
+
+* a browser
+* sqlite3
+
+== To Make it Go:
+
+# Start up your getter, putter, and poster from closet:
+
+    (in your closet directory, don't forget to mkdir storage)
+    python manage.py run getter
+    python manage.py run putter
+    python manage.py run poster
+
+# Get your database going:
+
+    (in your simper directory)
+    python manage drop
+    python manage create
+    python manage fill
+
+# Start up simper:
+
+    (in your simper directory)
+    python manage run
+
+# Go have a look with your browser:
+
+    http://0.0.0.0:8080/content
+
+  You should get a clickable list of 3 "pages", with their modified
+  times, and revision count.
+  
+# add some content
+
+    python ink.py "<some title>" < <some conent on STDIN>
+
+  You _can_ add additional revisions to existing titles.
+
+== Notes
+
+* No particular reason to use kid and sqlalchemy, just what 
+  I happened to have around.
+* Closet could certainly have a nicer startup.
+* Read the manage code to see the options for saving the database away to the
+  closet for later bootstrapping.
+
+

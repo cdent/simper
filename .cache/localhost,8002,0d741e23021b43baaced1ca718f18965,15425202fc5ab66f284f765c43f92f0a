@@ -1,0 +1,9 @@
+status: 304
+content-length: 0
+content-location: http://localhost:8002/0d741e23021b43baaced1ca718f18965
+server: WSGIServer/0.1 Python/2.5.1
+etag: 0d741e23021b43baaced1ca718f18965
+cache-control: max-age=10
+date: Wed, 06 Feb 2008 04:46:30 GMT
+
+oh dear, clobbering time

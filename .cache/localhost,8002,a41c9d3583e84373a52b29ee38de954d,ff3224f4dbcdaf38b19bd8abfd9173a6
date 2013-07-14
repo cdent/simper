@@ -1,0 +1,8 @@
+status: 200
+content-location: http://localhost:8002/a41c9d3583e84373a52b29ee38de954d
+server: WSGIServer/0.1 Python/2.5.1
+etag: a41c9d3583e84373a52b29ee38de954d
+cache-control: max-age=10
+date: Wed, 06 Feb 2008 03:03:13 GMT
+
+hello, i disagree with the other guy, i like it.

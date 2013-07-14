@@ -1,0 +1,9 @@
+status: 304
+content-length: 0
+content-location: http://localhost:8002/1210bb3579354de481c2f5d6a0b30c70
+server: WSGIServer/0.1 Python/2.5.1
+etag: 1210bb3579354de481c2f5d6a0b30c70
+cache-control: max-age=10
+date: Fri, 15 Feb 2008 21:13:16 GMT
+
+and two and three and four

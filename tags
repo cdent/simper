@@ -1,0 +1,65 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+DataNotFound	simper.py	/^class DataNotFound( Exception ):$/;"	c
+HTTP303	simper.py	/^class HTTP303( ValuedException ):$/;"	c
+InvalidContent	simper.py	/^class InvalidContent( ValuedException ):$/;"	c
+ValuedException	simper.py	/^class ValuedException( Exception ):$/;"	c
+__init__	simper.py	/^    def __init__(self, value):$/;"	m	class:ValuedException
+__str__	simper.py	/^    def __str__(self):$/;"	m	class:ValuedException	file:
+_display_page	publisher.py	/^def _display_page(page, id, title, pages):$/;"	f
+_fill_comments	publisher.py	/^def _fill_comments(comments):$/;"	f
+_incipient_page	publisher.py	/^def _incipient_page(name):$/;"	f
+_insert_type_list	ink.py	/^def _insert_type_list(type):$/;"	f
+_page_from_row	producer.py	/^def _page_from_row(row):$/;"	f
+_pages_from_rows	producer.py	/^def _pages_from_rows(rows):$/;"	f
+_render	simper.py	/^def _render(f, template_file, environ, start_response, *args, **kwds):$/;"	f
+_revise	ink.py	/^def _revise(name, content):$/;"	f
+_set	simper.py	/^def _set(hdf, name, value):$/;"	f
+_type_list	ink.py	/^def _type_list(type):$/;"	f
+_type_revision	ink.py	/^def _type_revision(revision_id, type_id):$/;"	f
+add	butler.py	/^def add(content):$/;"	f
+add	editor.py	/^def add(environ, start_response):$/;"	f
+add	ink.py	/^def add(name, content):$/;"	f
+add_and_type	ink.py	/^def add_and_type(name, type, content):$/;"	f
+add_comment	ink.py	/^def add_comment(blog, name, content):$/;"	f
+add_value	simper.py	/^    def add_value(prefix, value):$/;"	f
+associate	ink.py	/^def associate(from_id, to_id):$/;"	f
+associates_for_revision	producer.py	/^def associates_for_revision(revision_id):$/;"	f
+associates_for_revision_by_type	producer.py	/^def associates_for_revision_by_type(type, revision_id):$/;"	f
+content	publisher.py	/^def content(environ, start_response):$/;"	f
+content_revision	publisher.py	/^def content_revision(environ, start_response):$/;"	f
+convertDict	simper.py	/^    def convertDict(value):$/;"	f
+convertEnumerable	simper.py	/^    def convertEnumerable(value):$/;"	f
+create	manage.py	/^def create():$/;"	f
+date	publisher.py	/^def date(environ, start_response):$/;"	f
+drop	manage.py	/^def drop():$/;"	f
+dump	manage.py	/^def dump():$/;"	f
+entangle	simper.py	/^    def entangle(f):$/;"	f
+fill	manage.py	/^def fill():$/;"	f
+format	lead.py	/^def format(content):$/;"	f
+get	butler.py	/^def get(uri):$/;"	f
+get_content	fetcher.py	/^def get_content(uri):$/;"	f
+get_request_content	simper.py	/^def get_request_content(environ):$/;"	f
+list	publisher.py	/^def list(environ, start_response):$/;"	f
+list_names	producer.py	/^def list_names():$/;"	f
+list_names_by_type	producer.py	/^def list_names_by_type(type):$/;"	f
+list_revisions	publisher.py	/^def list_revisions(environ, start_response):$/;"	f
+load	urls.py	/^def load(filename):$/;"	f
+page_by_id	producer.py	/^def page_by_id(name, id):$/;"	f
+page_by_name	producer.py	/^def page_by_name(name):$/;"	f
+render	simper.py	/^        def render(environ, start_response, *args, **kwds):$/;"	f
+render	simper.py	/^def render(template_file):$/;"	f
+revisions_by_name	producer.py	/^def revisions_by_name(name):$/;"	f
+revisions_for_associate	producer.py	/^def revisions_for_associate(associate_id):$/;"	f
+run	manage.py	/^def run():$/;"	f
+start	manage.py	/^def start(uri):$/;"	f
+type_add	editor.py	/^def type_add(environ, start_response):$/;"	f
+type_list	publisher.py	/^def type_list(environ, start_response):$/;"	f
+type_list_for_name	publisher.py	/^def type_list_for_name(environ, start_response):$/;"	f
+update	editor.py	/^def update(environ, start_response):$/;"	f
+update	ink.py	/^def update(name, content):$/;"	f
+update_type	ink.py	/^def update_type(revision_id, type):$/;"	f

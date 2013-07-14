@@ -1,0 +1,9 @@
+status: 304
+content-length: 0
+content-location: http://localhost:8002/5df17c13900b48c98bf374fe27523fe5
+server: WSGIServer/0.1 Python/2.5.1
+etag: 5df17c13900b48c98bf374fe27523fe5
+cache-control: max-age=10
+date: Fri, 15 Feb 2008 22:32:47 GMT
+
+no title man!

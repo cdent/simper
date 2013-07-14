@@ -1,0 +1,9 @@
+status: 304
+content-length: 0
+content-location: http://localhost:8002/2ebfc516af454fa48e33522b3db3cab1
+server: WSGIServer/0.1 Python/2.5.1
+etag: 2ebfc516af454fa48e33522b3db3cab1
+cache-control: max-age=10
+date: Fri, 15 Feb 2008 21:20:37 GMT
+
+and i'll tell you no lies

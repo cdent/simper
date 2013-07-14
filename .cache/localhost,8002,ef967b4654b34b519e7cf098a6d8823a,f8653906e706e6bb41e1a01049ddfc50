@@ -1,0 +1,9 @@
+status: 304
+content-length: 0
+content-location: http://localhost:8002/ef967b4654b34b519e7cf098a6d8823a
+server: WSGIServer/0.1 Python/2.5.1
+etag: ef967b4654b34b519e7cf098a6d8823a
+cache-control: max-age=10
+date: Wed, 06 Feb 2008 04:32:54 GMT
+
+ossum!

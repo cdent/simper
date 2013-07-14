@@ -1,0 +1,10 @@
+status: 304
+content-length: 0
+content-location: http://localhost:8002/87da5de7c35f4e31a8843a139f02cc91
+server: WSGIServer/0.1 Python/2.5.1
+etag: 87da5de7c35f4e31a8843a139f02cc91
+cache-control: max-age=10
+date: Fri, 15 Feb 2008 20:37:47 GMT
+
+
+[[Who we are]]

@@ -1,0 +1,9 @@
+status: 304
+content-length: 0
+content-location: http://localhost:8002/7d2a59ef11f1446395d19d0134201d96
+server: WSGIServer/0.1 Python/2.5.1
+etag: 7d2a59ef11f1446395d19d0134201d96
+cache-control: max-age=10
+date: Sun, 03 Feb 2008 22:26:33 GMT
+
+your blog sucks

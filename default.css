@@ -1,0 +1,40 @@
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+    padding: 1em;
+    color: white;
+}
+
+.heading {
+    font-size: 200%;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    padding: 1em;
+    color: white;
+}
+
+.footer_menu {
+    font-size: 75%;
+}
+
+.branding {
+    text-align: center;
+}
+
+.content {
+}
+
+.revisions {
+}
+
+.page_list {
+}
+

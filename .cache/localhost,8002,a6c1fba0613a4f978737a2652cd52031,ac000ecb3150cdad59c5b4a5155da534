@@ -1,0 +1,9 @@
+status: 304
+content-length: 0
+content-location: http://localhost:8002/a6c1fba0613a4f978737a2652cd52031
+server: WSGIServer/0.1 Python/2.5.1
+etag: a6c1fba0613a4f978737a2652cd52031
+cache-control: max-age=10
+date: Fri, 15 Feb 2008 21:20:37 GMT
+
+i mean really, what flake

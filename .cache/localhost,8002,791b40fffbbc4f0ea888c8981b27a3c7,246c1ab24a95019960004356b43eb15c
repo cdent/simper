@@ -1,0 +1,12 @@
+status: 304
+content-length: 0
+content-location: http://localhost:8002/791b40fffbbc4f0ea888c8981b27a3c7
+server: WSGIServer/0.1 Python/2.5.1
+etag: 791b40fffbbc4f0ea888c8981b27a3c7
+cache-control: max-age=10
+date: Fri, 15 Feb 2008 22:32:16 GMT
+
+== here we go ==
+
+* one
+* two

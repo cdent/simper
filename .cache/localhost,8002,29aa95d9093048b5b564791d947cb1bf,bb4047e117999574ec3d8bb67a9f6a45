@@ -1,0 +1,10 @@
+status: 304
+content-length: 0
+content-location: http://localhost:8002/29aa95d9093048b5b564791d947cb1bf
+server: WSGIServer/0.1 Python/2.5.1
+etag: 29aa95d9093048b5b564791d947cb1bf
+cache-control: max-age=10
+date: Sun, 03 Feb 2008 23:27:53 GMT
+
+fiddle pop!
+ 

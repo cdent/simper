@@ -1,0 +1,8 @@
+status: 200
+content-location: http://localhost:8002/563e75ca904343678896105d5c4324f8
+server: WSGIServer/0.1 Python/2.5.1
+etag: 563e75ca904343678896105d5c4324f8
+cache-control: max-age=10
+date: Thu, 17 Jan 2008 17:02:17 GMT
+
+would you //like// to swing on a star

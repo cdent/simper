@@ -1,0 +1,83 @@
+
+= Extensible Attribute Model Design
+
+Consider tags. They are an attribute on something. But a tag is
+really just sort of a typed association to a something with a name.
+Other things:
+
+    content <-> has tag <-> content
+    content <-> has annotation <-> content
+    content <-> has comment <-> content
+    content <-> has trackback/pingback/referer <-> content
+
+Remember that all content is is something that has a URI and a content-type.
+
+So we end up with a way to have:
+
+    blog entry content
+        with comment content
+        with annotation content
+        with multipe tags content
+        with trackback content
+
+OR
+
+    Fully inclusive bookmark (i.e. including the URL)
+        with annotations
+        with tags
+
+Etc.
+
+From a data scheme standpoint we can have:
+
+attribute_type:
+    id
+    name
+
+attribute_assocation:
+    applied content id
+    attribute id
+    attribute content id
+
+When a "top level" (there is no top nor a bottom) content is 
+displayed the interface can choose to show some or all of the
+various attributes. An ajaxy taggy thing could retrieve tags
+for this content and show them.
+
+Annotations might require an additional table to enable 
+positioned annotations, but that's for later thought.
+
+= Document Types
+
+Everything is a "page" but we also want things to be maybe
+a blog entry, or a comment, or something else. 
+
+A collection at /content should list all pages. An entry
+at /content/name/{name} reveals a particular page. It
+should be possible to list types of things as well, such as:
+
+* /content/blog lists blog entries
+* /content/blog/{tag indicator} lists blog entries with certain tags
+* /content/tag/{tag indicator} lists any entries with certain tags
+* /content/comment lists comments
+* /content/name/{name}/comment lists comments on this thing?
+
+A comment is just another page that has been given a 
+particular type. So when someone choose to make a comment
+it is type (page AND comment) and the comment is on something
+else (page AND blog) which HASA comment.
+
+It is reasonable to assume that a comment can have a comment
+and thus we can have a form of threading.
+
+= Identity
+
+Anybody who wants to write needs to have an OpenID. The owner
+(me) can write any sort of page. Everyone else is more constrained,
+presumably to annotative (comment) types of additions. Owner can
+edit anything. Everyone else can edit their own things.
+
+= Revisions
+
+Everything should show its revision count and provide a way to 
+go backwards in it?

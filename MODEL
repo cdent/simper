@@ -1,0 +1,38 @@
+
+= How's it fit together.
+
+Simper is the overarching name of the tool. It is a content
+repository that might be a blog or a wiki, or both. It consists
+of pages (content) that have names, and revisions that are associated 
+with those names. Any individual name can have many revisions and
+any revisions can be the content of many names.
+
+A revision contains no content itself, but keeps content in a 
+closet, accessed in simper via the butler module.
+
+manage.py can create (see README) the two necessary database
+tables: content and revision.
+
+publisher.py provides a read view onto the content via a controller,
+called producer.py. 
+
+editor.py is an editing oriented view (not yet done) that uses ink.py
+to get to the model.
+
+ink.py can be used as a command line editor when run (see README).
+
+So things look a bit like this:
+
+
+      +----------------------+---------------------+
+      |    publisher         |    editor           |
+      +----------------------+---------------------+
+      |    producer          |    ink              |
+      +----------------------+---------------------+
+      |               model and closet             |
+      +--------------------------------------------+
+
+At the moment access to the closet is a bit confused.
+
+The publisher uses lead.py to turn creole text into
+HTML.

@@ -1,0 +1,11 @@
+status: 304
+content-length: 0
+content-location: http://localhost:8002/e17967b2544e4d48aa88456307082816
+server: WSGIServer/0.1 Python/2.5.1
+etag: e17967b2544e4d48aa88456307082816
+cache-control: max-age=10
+date: Thu, 17 Jan 2008 16:45:40 GMT
+
+
+ Yeah, you know, we wanted two revisions, after all.
+ 
